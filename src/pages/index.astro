@@ -1,0 +1,43 @@
+--- 
+import Layout from '../layouts/Layout.astro';
+import AffirmationComponent from '../components/AffirmationComponent.jsx';
+---
+
+<Layout title="Williams Daily Affirmations">
+	<main>
+		<h1><span class="text-gradient">Welcome to Williams Affirmation Astro App.</span></h1>
+			<section class="text">
+				<AffirmationComponent client:load/>
+			</section>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 80ch;
+	}
+	h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.text {
+		line-height: 1.6;
+		margin: 1rem 0;
+		border: 1px solid rgba(var(--accent), 25%);
+		background-color: white;
+		padding: 1rem;
+		border-radius: 0.4rem;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+</style>
