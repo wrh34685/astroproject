@@ -1,11 +1,11 @@
-# Williams Astro App
+# ⚓ Williams Astro App
 
 The app requests affirmations from an AWS DynamoDB, populated with affirmations, via a Lambda endpoint.
 Built as a test project using Astro, Preact and AWS services.
 
-## WRH Affirmations App
+## 🏯 Affirmations App
 
-Sourced from: ![Stay Happy and ](https://community.aws/content/2e0HjEBi7MAY40KTLoOtVEX9Lf8/build-an-affirmation-app)
+Sourced from: [Stay Happy](https://community.aws/content/2e0HjEBi7MAY40KTLoOtVEX9Lf8/build-an-affirmation-app)
 
 Affirmations for daily consumption!
 The affirmations on this site were created originally by @annthurium. Thank You!
